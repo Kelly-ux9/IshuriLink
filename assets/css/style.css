@@ -38,3 +38,33 @@ button {
     text-decoration: none;
     width: 200px;
 }
+.forum-box {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 450px;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.forum-msg {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.msg-student { background: #e4f3ff; }
+.msg-teacher { background: #eefbe3; }
+.msg-admin   { background: #ffe8e8; }
+
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
