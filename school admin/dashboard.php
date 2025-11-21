@@ -25,6 +25,8 @@ $assigns = mysqli_query($conn, "SELECT COUNT(*) AS c FROM assignments a LEFT JOI
     <a href="add_teacher.php" class="btn">Add Teacher</a>
     <a href="add_student.php" class="btn">Add Student</a>
     <a href="manage_users.php" class="btn">Manage Users</a>
+      <a href="../forum.php" class="btn">💬 Forum</a>
+
     <a href="announcements.php" class="btn">Announcements</a>
     <a href="../logout.php" class="btn">Logout</a>
   </p>
