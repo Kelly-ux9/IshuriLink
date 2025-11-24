@@ -70,4 +70,3 @@ CREATE TABLE announcements (
     message TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
